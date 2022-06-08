@@ -8,9 +8,9 @@ public class Delivery : MonoBehaviour
         Debug.Log("Hello");
     }
 
-    public void OnTriggerEnter2D(Collision2D other) {
+    public void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Event") {
-            Debug.Log("Event Occured")
+            Destroy(other.gameObject, 0.05f);
         }
     }
 }

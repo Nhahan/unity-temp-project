@@ -70,3 +70,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# custom
+deprecated/[Ll]ibrary/
+deprecated/[Tt]emp/
+deprecated/[Oo]bj/
+deprecated/[Bb]uild/
+deprecated/[Bb]uilds/
+deprecated/[Ll]ogs/
+deprecated/[Uu]ser[Ss]ettings/

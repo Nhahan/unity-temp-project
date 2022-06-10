@@ -5,6 +5,6 @@ using UnityEngine;
 public class FinishLine : MonoBehaviour
 {
     void private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("You Finished!")
+        Debug.Log("You Finished!");
     }
 }

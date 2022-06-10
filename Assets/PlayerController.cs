@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.LeftArrow)) {
             rigidBody2D.AddTorque(torqueAmount);
+        } else if (Input.GetKey(KeyCode.RightArrow)) {
+            rigidBody2D.AddTorque(-torqueAmount);
         }
     }
 }

@@ -704,6 +704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852395145}
   - component: {fileID: 852395144}
+  - component: {fileID: 852395146}
   m_Layer: 0
   m_Name: Finish Line
   m_TagString: Untagged
@@ -754,6 +755,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &852395146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852395143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cd50405222246808e9b14d99e4e61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &901059172
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +782,7 @@ GameObject:
   - component: {fileID: 901059179}
   m_Layer: 0
   m_Name: Boarder
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -872,7 +885,7 @@ GameObject:
   - component: {fileID: 1312311530}
   m_Layer: 0
   m_Name: Level Sprite Shape
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1790,7 +1803,6 @@ GameObject:
   - component: {fileID: 1609662529}
   - component: {fileID: 1609662530}
   - component: {fileID: 1609662532}
-  - component: {fileID: 1609662531}
   m_Layer: 0
   m_Name: Boarder_Top
   m_TagString: Untagged
@@ -1865,18 +1877,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1609662531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609662528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b0ec7172a7bb4c1e8a6cfc96c38db35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1609662532
 MonoBehaviour:
   m_ObjectHideFlags: 0

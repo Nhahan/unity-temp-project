@@ -712,7 +712,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.75, y: -1.75}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -723,7 +723,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5, y: 5}
   m_EdgeRadius: 0
 --- !u!4 &852395145
 Transform:
@@ -733,7 +733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852395143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 534.5, y: -95.9, z: 0.09815126}
+  m_LocalPosition: {x: 29.8, y: 3, z: 0.09815126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -767,6 +767,7 @@ GameObject:
   - component: {fileID: 901059178}
   - component: {fileID: 901059177}
   - component: {fileID: 901059179}
+  - component: {fileID: 901059180}
   m_Layer: 0
   m_Name: Boarder
   m_TagString: Player
@@ -857,6 +858,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torqueAmount: 5
+--- !u!114 &901059180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901059172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0ec7172a7bb4c1e8a6cfc96c38db35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1312311525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,7 +1786,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 5
+  m_Speed: 10
   m_SpeedVariation: 0
   m_ForceScale: 0.1
   m_UseContactForce: 0
@@ -1789,7 +1802,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1609662529}
   - component: {fileID: 1609662530}
-  - component: {fileID: 1609662532}
   m_Layer: 0
   m_Name: Boarder_Top
   m_TagString: Untagged
@@ -1864,15 +1876,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1609662532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609662528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b0ec7172a7bb4c1e8a6cfc96c38db35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

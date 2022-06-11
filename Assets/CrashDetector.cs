@@ -20,4 +20,3 @@ public class CrashDetector : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 }
-}

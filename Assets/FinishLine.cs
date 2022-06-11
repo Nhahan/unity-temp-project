@@ -7,7 +7,12 @@ public class FinishLine : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Player") {
-            SceneManager.LoadScene(0);
+            Invoke("ReloadScene", 1f);
+            Debug.Log("Restart Game in 1second.");
         }
+    }
+
+    void ReloadScene() {
+        SceneManager.LoadScene(0);
     }
 }

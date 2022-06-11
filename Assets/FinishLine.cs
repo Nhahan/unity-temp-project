@@ -9,6 +9,8 @@ public class FinishLine : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Player") {
+            finishEffect.Play();
+
             Invoke("ReloadScene", 1f);
             Debug.Log("Restart Game in 1second.");
         }

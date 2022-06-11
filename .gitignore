@@ -72,10 +72,18 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # custom
-deprecated/[Ll]ibrary/
-deprecated/[Tt]emp/
-deprecated/[Oo]bj/
-deprecated/[Bb]uild/
-deprecated/[Bb]uilds/
-deprecated/[Ll]ogs/
-deprecated/[Uu]ser[Ss]ettings/
+deprecated/first/[Ll]ibrary/
+deprecated/first/[Tt]emp/
+deprecated/first/[Oo]bj/
+deprecated/first/[Bb]uild/
+deprecated/first/[Bb]uilds/
+deprecated/first/[Ll]ogs/
+deprecated/first/[Uu]ser[Ss]ettings/
+
+deprecated/second/[Ll]ibrary/
+deprecated/second/[Tt]emp/
+deprecated/second/[Oo]bj/
+deprecated/second/[Bb]uild/
+deprecated/second/[Bb]uilds/
+deprecated/second/[Ll]ogs/
+deprecated/second/[Uu]ser[Ss]ettings/

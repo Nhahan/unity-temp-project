@@ -1,15 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 public class Quiz : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI questionText;
-    [SerializeField] QuestionScript question;
+  [SerializeField] TextMeshProUGUI questionText;
+  [SerializeField] QuestionScript question;
+  [SerializeField] GameObject[] answerButtons;
 
-    void Start()
+  void Start()
+  {
+    questionText.text = question.GetQuestion();
+
+    for (int i = 0; i < answerButtons.Length; i++)
     {
-        questionText.text = question.GetQuestion();
+      TextMeshProUGUI buttonText = answerButtons[0].GetComponentInChildren<TextMeshProUGUI>();
+      buttonText.text = questionText.getAnswer(0);
     }
+  }
 }
